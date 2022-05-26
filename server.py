@@ -36,7 +36,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as sock:
 
             # get the command from the received bytes
             command_name = received_bytes.split(protocol.CMD_DEL, 1)[0].decode("utf8")
-            command = protocol.server_commands.get(command_name)
+            command = protocol.responses.get(command_name)
             if command is None:
                 raise protocol.CommandError('invalid server command')
 

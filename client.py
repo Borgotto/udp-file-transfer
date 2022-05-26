@@ -20,7 +20,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as sock:
         try:
             # get input from user and convert it to a Command object
             user_input : str = input().strip()
-            command = protocol.client_commands.get(next(iter(user_input.split()),''))
+            command = protocol.commands.get(next(iter(user_input.split()),''))
             if not command:
                 raise protocol.CommandError("invalid client command")
 

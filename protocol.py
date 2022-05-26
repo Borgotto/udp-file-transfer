@@ -109,8 +109,8 @@ def file_to_bytes(filename: str):
         raise CommandError("could not open file "+filename)
 
 
-# define commands, clients and servers can have different commands
-client_commands = {
+# define client commands and server responses
+commands = {
     "list": Command("list",
                     lambda cmd_str: cmd_str.encode()+CMD_DEL,
                     lambda rec_bytes: print(rec_bytes.split(CMD_DEL,1)[1].decode("utf8"))),
@@ -122,7 +122,7 @@ client_commands = {
                     lambda rec_bytes: print(f"sent {rec_bytes.split(CMD_DEL,1)[1].decode('utf8')} bytes"))
 }
 
-server_commands = {
+responses = {
     "list": Command("list",
                     lambda obj: b'list'+CMD_DEL+str(list()).encode(),
                     lambda rec_bytes: rec_bytes.decode("utf8")),
