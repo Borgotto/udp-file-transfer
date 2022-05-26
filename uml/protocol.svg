@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="297px" preserveAspectRatio="none" style="width:502px;height:297px;background:#FFFFFF;" version="1.1" viewBox="0 0 502 297" width="502px" zoomAndPan="magnify"><defs/><g><!--MD5=[5b2b2a5be5f1bd5578d2bc8050a2d696]
+cluster protocol.py--><polygon fill="#FFFFFF" points="21,12.1191,166,12.1191,173,44.8564,485,44.8564,485,202.1191,21,202.1191,21,12.1191" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="21" x2="173" y1="44.8564" y2="44.8564"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="139" x="25" y="36.2373">protocol.py</text><!--MD5=[1e9fdf15df60fe35b2cfb46e138b9df2]
+class protocol.py.Command--><rect codeLine="3" fill="#FFFFFF" height="129.0732" id="protocol.py.Command" style="stroke:#000000;stroke-width:1.5;" width="261" x="207.5" y="57.1191"/><ellipse cx="298.75" cy="71.1191" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M301.5156,66.9941 Q301.6719,66.7754 301.8594,66.666 Q302.0469,66.5566 302.2656,66.5566 Q302.6406,66.5566 302.875,66.8223 Q303.1094,67.0723 303.1094,67.6816 L303.1094,69.1348 Q303.1094,69.7441 302.875,70.0098 Q302.6406,70.2754 302.2656,70.2754 Q301.9219,70.2754 301.7188,70.0723 Q301.5156,69.8848 301.4063,69.3691 Q301.3594,69.0098 301.1719,68.8223 Q300.8438,68.4473 300.2344,68.2285 Q299.625,68.0098 299,68.0098 Q298.2344,68.0098 297.5938,68.3379 Q296.9688,68.666 296.4688,69.416 Q295.9844,70.166 295.9844,71.1973 L295.9844,72.291 Q295.9844,73.5254 296.875,74.3535 Q297.7656,75.166 299.3594,75.166 Q300.2969,75.166 300.9531,74.916 Q301.3438,74.7598 301.7656,74.3223 Q302.0313,74.0566 302.1719,73.9785 Q302.3281,73.9004 302.5313,73.9004 Q302.8594,73.9004 303.1094,74.166 Q303.375,74.416 303.375,74.7598 Q303.375,75.1035 303.0313,75.5098 Q302.5313,76.0879 301.7344,76.416 Q300.6563,76.8691 299.3594,76.8691 Q297.8438,76.8691 296.6406,76.2441 Q295.6563,75.7441 294.9688,74.6816 Q294.2813,73.6035 294.2813,72.3223 L294.2813,71.166 Q294.2813,69.8379 294.8906,68.6973 Q295.5156,67.541 296.6094,66.9316 Q297.7031,66.3066 298.9375,66.3066 Q299.6719,66.3066 300.3125,66.4785 Q300.9688,66.6348 301.5156,66.9941 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="71" x="316.25" y="76.687">Command</text><line style="stroke:#000000;stroke-width:1.5;" x1="208.5" x2="467.5" y1="85.1191" y2="85.1191"/><ellipse cx="218.5" cy="96.1191" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="64" x="225.5" y="103.1943">name:str</text><rect fill="none" height="6" style="stroke:#000000;stroke-width:1.0;" width="6" x="215.5" y="110.1338"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="154" x="225.5" y="120.209">decode_func : callable</text><rect fill="none" height="6" style="stroke:#000000;stroke-width:1.0;" width="6" x="215.5" y="127.1484"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="154" x="225.5" y="137.2236">encode_func : callable</text><line style="stroke:#000000;stroke-width:1.5;" x1="208.5" x2="467.5" y1="144.1631" y2="144.1631"/><ellipse cx="218.5" cy="155.1631" fill="#FFFFFF" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="162" x="225.5" y="162.2383">obj_to_bytes() : bytes</text><ellipse cx="218.5" cy="172.1777" fill="#FFFFFF" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="237" x="225.5" y="179.2529">bytes_to_obj(bytes: bytes) : any</text><!--MD5=[34285e9ed7e538112a5e00d018567378]
+class protocol.py.CommandError--><rect codeLine="11" fill="#FFFFFF" height="78.0293" id="protocol.py.CommandError" style="stroke:#000000;stroke-width:1.5;" width="135" x="37.5" y="82.6191"/><ellipse cx="50.5" cy="96.6191" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M53.2656,92.4941 Q53.4219,92.2754 53.6094,92.166 Q53.7969,92.0566 54.0156,92.0566 Q54.3906,92.0566 54.625,92.3223 Q54.8594,92.5723 54.8594,93.1816 L54.8594,94.6348 Q54.8594,95.2441 54.625,95.5098 Q54.3906,95.7754 54.0156,95.7754 Q53.6719,95.7754 53.4688,95.5723 Q53.2656,95.3848 53.1563,94.8691 Q53.1094,94.5098 52.9219,94.3223 Q52.5938,93.9473 51.9844,93.7285 Q51.375,93.5098 50.75,93.5098 Q49.9844,93.5098 49.3438,93.8379 Q48.7188,94.166 48.2188,94.916 Q47.7344,95.666 47.7344,96.6973 L47.7344,97.791 Q47.7344,99.0254 48.625,99.8535 Q49.5156,100.666 51.1094,100.666 Q52.0469,100.666 52.7031,100.416 Q53.0938,100.2598 53.5156,99.8223 Q53.7813,99.5566 53.9219,99.4785 Q54.0781,99.4004 54.2813,99.4004 Q54.6094,99.4004 54.8594,99.666 Q55.125,99.916 55.125,100.2598 Q55.125,100.6035 54.7813,101.0098 Q54.2813,101.5879 53.4844,101.916 Q52.4063,102.3691 51.1094,102.3691 Q49.5938,102.3691 48.3906,101.7441 Q47.4063,101.2441 46.7188,100.1816 Q46.0313,99.1035 46.0313,97.8223 L46.0313,96.666 Q46.0313,95.3379 46.6406,94.1973 Q47.2656,93.041 48.3594,92.4316 Q49.4531,91.8066 50.6875,91.8066 Q51.4219,91.8066 52.0625,91.9785 Q52.7188,92.1348 53.2656,92.4941 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="107" x="62.5" y="102.187">CommandError</text><line style="stroke:#000000;stroke-width:1.5;" x1="38.5" x2="171.5" y1="110.6191" y2="110.6191"/><ellipse cx="48.5" cy="121.6191" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="88" x="55.5" y="128.6943">message:str</text><ellipse cx="48.5" cy="138.6338" rx="3" ry="3" style="stroke:#000000;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="84" x="55.5" y="145.709">bytes:bytes</text><line style="stroke:#000000;stroke-width:1.5;" x1="38.5" x2="171.5" y1="152.6484" y2="152.6484"/><!--MD5=[8db60afef7a3447bbe27c5ed187fdac2]
+class Exception--><rect fill="#FFFFFF" height="44" id="Exception" style="stroke:#000000;stroke-width:1.5;" width="97" x="56.5" y="246.1191"/><ellipse cx="69.5" cy="260.1191" fill="#FFFFFF" rx="9" ry="9" style="stroke:#000000;stroke-width:1.0;"/><path d="M72.2656,255.9941 Q72.4219,255.7754 72.6094,255.666 Q72.7969,255.5566 73.0156,255.5566 Q73.3906,255.5566 73.625,255.8223 Q73.8594,256.0723 73.8594,256.6816 L73.8594,258.1348 Q73.8594,258.7441 73.625,259.0098 Q73.3906,259.2754 73.0156,259.2754 Q72.6719,259.2754 72.4688,259.0723 Q72.2656,258.8848 72.1563,258.3691 Q72.1094,258.0098 71.9219,257.8223 Q71.5938,257.4473 70.9844,257.2285 Q70.375,257.0098 69.75,257.0098 Q68.9844,257.0098 68.3438,257.3379 Q67.7188,257.666 67.2188,258.416 Q66.7344,259.166 66.7344,260.1973 L66.7344,261.291 Q66.7344,262.5254 67.625,263.3535 Q68.5156,264.166 70.1094,264.166 Q71.0469,264.166 71.7031,263.916 Q72.0938,263.7598 72.5156,263.3223 Q72.7813,263.0566 72.9219,262.9785 Q73.0781,262.9004 73.2813,262.9004 Q73.6094,262.9004 73.8594,263.166 Q74.125,263.416 74.125,263.7598 Q74.125,264.1035 73.7813,264.5098 Q73.2813,265.0879 72.4844,265.416 Q71.4063,265.8691 70.1094,265.8691 Q68.5938,265.8691 67.3906,265.2441 Q66.4063,264.7441 65.7188,263.6816 Q65.0313,262.6035 65.0313,261.3223 L65.0313,260.166 Q65.0313,258.8379 65.6406,257.6973 Q66.2656,256.541 67.3594,255.9316 Q68.4531,255.3066 69.6875,255.3066 Q70.4219,255.3066 71.0625,255.4785 Q71.7188,255.6348 72.2656,255.9941 Z " fill="#000000"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="69" x="81.5" y="265.687">Exception</text><line style="stroke:#000000;stroke-width:1.5;" x1="57.5" x2="152.5" y1="274.1191" y2="274.1191"/><line style="stroke:#000000;stroke-width:1.5;" x1="57.5" x2="152.5" y1="282.1191" y2="282.1191"/><!--MD5=[fd264e88267293a1c4254618458129ea]
+link protocol.py.CommandError to Exception--><path codeLine="16" d="M105,160.9591 C105,186.1991 105,218.5691 105,240.8891 " fill="none" id="protocol.py.CommandError-to-Exception" style="stroke:#000000;stroke-width:1.0;"/><polygon fill="#000000" points="105,246.0591,109,237.0591,105,241.0591,101,237.0591,105,246.0591" style="stroke:#000000;stroke-width:1.0;"/><!--MD5=[0d7d28618930634cebbf0cbcd1d062f7]
+@startuml protocol
+!theme plain
+
+class protocol.py.Command {
+    +name:str
+    -decode_func : callable
+    -encode_func : callable
+    +obj_to_bytes() : bytes
+    +bytes_to_obj(bytes: bytes) : any
+}
+
+class protocol.py.CommandError  {
+    +message:str
+    +bytes:bytes
+} 
+
+protocol.py.CommandError -d-> Exception
+
+@enduml
+
+@startuml protocol
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor black
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+
+class protocol.py.Command {
+    +name:str
+    -decode_func : callable
+    -encode_func : callable
+    +obj_to_bytes() : bytes
+    +bytes_to_obj(bytes: bytes) : any
+}
+
+class protocol.py.CommandError  {
+    +message:str
+    +bytes:bytes
+} 
+
+protocol.py.CommandError -d-> Exception
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 17:16:42 CET 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: it
+Country: IT
+--></g></svg>

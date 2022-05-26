@@ -1,0 +1,19 @@
+@startuml protocol
+!theme plain
+
+class protocol.py.Command {
+    +name:str
+    -decode_func : callable
+    -encode_func : callable
+    +obj_to_bytes() : bytes
+    +bytes_to_obj(bytes: bytes) : any
+}
+
+class protocol.py.CommandError  {
+    +message:str
+    +bytes:bytes
+} 
+
+protocol.py.CommandError -d-> Exception
+
+@enduml
